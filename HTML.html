@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Premium cars</title>
+    <link rel="stylesheet" href="CSS.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="Untitled-1.js"></script>
+<div class="menu-btn">
+    <div class="menu-btn__burger"></div>
+  </div>
+  
+  </head>
+  <body>
+    <h1>Premium cars</h1>
+
+    <script>
+      const title = document.querySelector('h1');
+      const text = title.textContent;
+      const chars = text.split('');
+      let newTitle = '';
+      title.textContent = '';
+        
+      chars.forEach((char, index) => {
+        setTimeout(() => {
+          newTitle += char;
+          title.textContent = newTitle;
+        }, 100 * index);
+      });
+    </script>
+
+    <nav>
+      <ul>
+        <li><a href="#">Начало</a></li>
+        <li><a href="#">Коли</a></li>
+        <li><a href="#">За нас</a></li>
+        <li><a href="#">Контакти</a></li>
+      </ul>
+    </nav>
+
+      <div class="hero-text">
+        <h1>Открийте перфектната кола за вас</h1>
+        <h1>Голям избор от Премиум Автомобили</h1>
+      </div>
+    </section>
+
+    <section class="hero-section">
+      <div class="hero-column">
+        <a href="https://www.mobile.bg/pcgi/mobile.cgi?act=4&adv=21663335378784041&slink=sd01b1">
+          <img src="21663335378784041_3j.jpg" alt="Mercedes-Benz G BRABUS ROCKET EDITION" style="width:350px;height:350px;">
+          <h3>Mercedes-Benz G BRABUS ROCKET EDITION</h3>
+          <p>Цена: 200 000 лв.</p>
+        </a>
+      </div>
+      <div class="hero-column">
+        <a href="https://www.mobile.bg/pcgi/mobile.cgi?act=4&adv=21606646575940039&slink=scn8xb">
+          <img src="21606646575940039_vM.jpg" alt="Mercedes-Benz G 350" style="width:350px;height:350px;">
+          <h3>Mercedes-Benz G 350</h3>
+          <p>127 500 лева</p>
+        </a>
+      </div>
+      <div class="hero-column">
+        <a href="https://www.mobile.bg/pcgi/mobile.cgi?act=4&adv=21681731295119317&slink=sd01b1">
+          <img src="12312312313.jpg" alt="Mercedes-Benz G 350 AMG" style="width:350px;height:350px;">
+          <h3>Mercedes-Benz G 350 AMG</h3>
+          <p>48 500 лева</p>
+          </a>
+        </div>
+      </section>
+    
+  <section class="cars">
+    <h2>Нашите коли</h2>
+    <div class="card-container">
+      <div class="card">
+        <a href="https://www.mobile.bg/pcgi/mobile.cgi?act=4&adv=11682527329076688&slink=scn0w0">
+        <img src="11682527329076688_ZQ.jpg" alt="Кола">
+        <h3>Mercedes-Benz S 400 d</h3>
+        <p>Цена: 240 900 лв.</p>
+      </div>
+      <div class="card">
+        <a href="https://www.mobile.bg/pcgi/mobile.cgi?act=4&adv=21682679634690895&slink=scn0w0">
+        <img src="21682679634690895_qR.jpg" alt="Кола">
+        <h3>Hummer H2</h3>
+        <p>Цена: 68 900лв.</p>
+      </div>
+      <div class="card">
+       <a href="https://www.mobile.bg/pcgi/mobile.cgi?act=4&adv=11683386241435715&slink=scn0w0">
+        <img src="11683386241435715_JX.jpg" alt="Кола">
+        <h3>Audi S8 Matrix</h3>
+        <p>Цена:73 699 лв.</p>
+      </div>
+    </div>
+</a href>
+  </section>
+
+  <footer>
+    <p>Premium cars 2023</p>
+  </footer>
+</body>
+</html>
